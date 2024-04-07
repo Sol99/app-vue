@@ -40,7 +40,7 @@ const filteredData = computed(() => {
 
 
 <template>
-  <div class="container">
+  <div class="container pb-2">
     <h5 class="title p-3 fw-bold">Ejercicio</h5>
     <div class="buttons-container">
       <button @click="filterCards(1)" :class="{ 'btn-custom-active fw-semibold ': filterState === 1, 'btn-custom-inactive fw-semibold ': filterState !== 1 }" class="btn me-2"><i class="bi bi-arrow-clockwise me-1"></i>Borrador</button>

@@ -28,8 +28,7 @@ a,
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    padding: 1rem 2rem; /* Padding de 1 rem arriba y abajo, 2 rem a la izquierda y derecha */
+    padding-bottom: 3rem; /* Añade padding de 3 rem en la parte inferior */
   }
 }

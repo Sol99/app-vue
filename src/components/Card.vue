@@ -1,5 +1,5 @@
 <template>
-    <div class="card pb-1 mb-3 mt-3">
+    <div class="card d-flex justify-content-center pb-1 mb-3 mt-3">
         <div class="card-body">
             <h5 class="card-title fw-bold">{{ name }}</h5>
             <div class="row">
